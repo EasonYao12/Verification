@@ -247,8 +247,6 @@ do
   now=`date -d "+ $fr minutes $timestamp" +%Y%m%d%H%M%S`
 
 done
-# sed -i '15c Case_name="'${case_name}'"' acrain_fss_plot_avg.ncl
-#  ncl acrain_fss_plot_avg.ncl
   now_num=$(($now_num+1))
 done
 
