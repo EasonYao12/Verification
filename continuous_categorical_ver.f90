@@ -17,6 +17,7 @@
       real :: pod,far,csi,ets,ks,w,scc,rmse
 !----------------------------
 !To find the fst/obs data filepath & filename
+! Remember to modify the file dir
       fstfilepath='/home/miayao/maple_ncu/categorical_verification&
       &/fstdatafile/'
       obsfilepath='/home/miayao/maple_ncu/categorical_verification&
